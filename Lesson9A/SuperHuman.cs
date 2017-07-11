@@ -20,7 +20,13 @@ namespace Lesson9A
         //Private Fields
         private List<Power> _powers;
         //Public Properties
-
+        public List<Power> Powers
+        {
+            get
+            {
+                return this._powers; //returns a reference to the Powers list
+            }
+        }
         //Constructors
         public SuperHuman(string name) : base(name)
         {
@@ -37,5 +43,6 @@ namespace Lesson9A
         }
 
         //Public Methods
+
     }
 }
