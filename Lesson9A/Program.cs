@@ -17,6 +17,7 @@ namespace Lesson9A
         static void Main(string[] args)
         {
             SuperHuman superHuman = new SuperHuman("Super Dude");
+            superHuman.Powers.Add(new Power("Teleportation", 50));
         }
     }
 }
